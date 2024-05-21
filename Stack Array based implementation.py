@@ -35,8 +35,7 @@ print(stack)
  
 pop(stack)
  
- 
- 
+print(stack)
  
  
  
@@ -61,14 +60,3 @@ pop(stack)
 # []
 # stack is empty
 # []
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-print(stack)
