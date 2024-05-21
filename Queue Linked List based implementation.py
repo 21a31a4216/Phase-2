@@ -1,8 +1,3 @@
-'''FIFO[First In First Out]
-push() , pop() are methods used in queue
-at beginnig,end,specific position '''
-
-
 '''Linked list implementation of Queue'''
 
 class Box:
