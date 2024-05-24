@@ -3,12 +3,10 @@ class Solution:
         if root==None:
             return
         self.collectInOrderTraversal(root.left,arr)
-        arr.append(root.data)
+        arr.append(root.val)
         self.collectInOrderTraversal(root.right,arr)
-    def kthSmallest(self,root,k):
+    def kthSmallest(self, root: Optional[TreeNode], k: int) -> int:
         arr=[]
         self.collectInOrderTraversal(root,arr)
         n=len(arr)
-        if n<K:
-            return -1
         return arr[k-1]
